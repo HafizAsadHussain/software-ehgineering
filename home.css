@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 10;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.navup {
+    background-color: rgb(102, 102, 223);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.navup span {
+    margin: 10px;
+    margin-right: 80px;
+}
+
+.UniName {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.UniName span {
+    color: yellowgreen;
+}
+
+.paragraph {
+    background-color: rgb(173, 216, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph1 {
+    width: 700px;
+    font-size: 1.5rem;
+}
+
+.Enrol {
+    font-size: 1.3rem;
+    background-color: orange;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    margin: 5;
+    padding: 10;
+}
+
+.aboutText {
+    padding: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-color: rgb(173, 216, 255);
+}
+
+.contactForm {
+    padding: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-color: rgb(173, 216, 255);
+    height: 56vh;
+}
+
+.contactForm h1 {
+    font-size: 3.0rem;
+}
+
+.contactForm input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contactForm textarea {
+    margin-top: 10px;
+}
